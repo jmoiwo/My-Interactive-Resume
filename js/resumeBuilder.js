@@ -184,7 +184,6 @@ function displayEducation() {
 };
 displayEducation();
 
-//you want to see a map? here's a map.
 $("#mapDiv").append(googleMap);
-//Google Maps API is broken.
+
 
