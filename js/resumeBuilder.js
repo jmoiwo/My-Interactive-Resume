@@ -152,7 +152,7 @@ var education = {
  ]
  };
 
-function displayEducation() {
+function display.Education() {
  for (school in education.schools) {
  $("#education").append(HTMLschoolStart);
  var formattedName = HTMLschoolName.replace("%data%", education.schools[school].name);
