@@ -152,7 +152,7 @@ var education = {
  ]
  };
 
-function display.Education() {
+education.display = function () {
  for (school in education.schools) {
  $("#education").append(HTMLschoolStart);
  var formattedName = HTMLschoolName.replace("%data%", education.schools[school].name);
@@ -182,7 +182,7 @@ function display.Education() {
  $(".education-entry:last").append(formattedURL);
  }
 };
-displayEducation();
+education.display();
 
 $("#mapDiv").append(googleMap);
 
