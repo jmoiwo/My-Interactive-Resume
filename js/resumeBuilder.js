@@ -184,6 +184,7 @@ education.display = function () {
 };
 education.display();
 
+//google maps
 $("#mapDiv").append(googleMap);
 
 
